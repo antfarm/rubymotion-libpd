@@ -10,5 +10,6 @@ cd pd-for-ios
 git submodule init
 git submodule update
 
+echo "Patching 'libpd' for use with RubyMotion"
 cd libpd
-git apply ${PROJECT_ROOT}/vendor/libpd_patch.diff.txt
+git -vv apply ${PROJECT_ROOT}/vendor/libpd_patch.diff.txt
