@@ -12,4 +12,4 @@ git submodule update
 
 echo "Patching 'libpd' for use with RubyMotion"
 cd libpd
-git -vv apply ${PROJECT_ROOT}/vendor/libpd_patch.diff.txt
+git apply ${PROJECT_ROOT}/vendor/libpd_patch.diff.txt
