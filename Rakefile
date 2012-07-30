@@ -10,7 +10,7 @@ Motion::Project::App.setup do |app|
   app.frameworks << 'AVFoundation'
   app.frameworks << 'CoreAudio'
 
-  app.vendor_project('vendor/pd-for-ios', :xcode,
+  app.vendor_project('vendor/pd-for-ios/libpd', :xcode,
     :xcodeproj => 'libpd.xcodeproj',
     :target => 'libpd-ios',
     :headers_dir => 'objc'
