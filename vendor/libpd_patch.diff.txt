@@ -1,0 +1,15 @@
+diff --git a/objc/PdBase.h b/objc/PdBase.h
+index d4cdcb6..cf90236 100644
+--- a/objc/PdBase.h
++++ b/objc/PdBase.h
+@@ -51,8 +51,8 @@
+ - (void)receivePrint:(NSString *)message;
+ @end
+ 
+-
+-@interface PdBase {
++// http://www.touch-code-magazine.com/does-not-implement-methodsignatureforselector-trouble-ahead/
++@interface PdBase: NSObject {
+   // Not meant to be instantiated. No member variables.
+ }
+ 
