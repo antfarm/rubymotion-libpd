@@ -1,19 +1,7 @@
-rubymotion-libd
+rubymotion-libpd
+================
 
+A skeletton rubymotion app that interacts with a puredata patch via pd-for-ios and libpd.
 
-$ git submodule init
-$ git submodule update
-
-$ cd libpd/
-$ git apply ../../libpd_patch.diff.txt
-
-
-------------
-
-$ cd rubymotion-libpd/
-$ mkdir vendor
-$ cd vendor/
-
-$ git clone https://github.com/libpd/pd-for-ios.git
-$ cd pd-for-ios/
-$ cat subl README.txt 
+To install, execute ./bin/install_libpd.sh.
+Then run rake.
