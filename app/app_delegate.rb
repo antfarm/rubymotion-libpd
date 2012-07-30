@@ -11,7 +11,7 @@ class AppDelegate
     
     @dispatcher = PdDispatcher.alloc.init
     PdBase.setDelegate(@dispatcher) 
-    @patch = PdBase.openFile('test.pd', path:NSBundle.mainBundle.resourcePath)
+    @patch = PdBase.openFile('beep.pd', path:NSBundle.mainBundle.resourcePath)
     
     @controller.active = true
 
