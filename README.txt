@@ -10,11 +10,16 @@ As an introductory text to libpd read [6]. For in-depth knowledge of Pure Data a
 
 ---
 
+Pieces:
+
 [1]  http://www.rubymotion.com/
 [2]  http://puredata.info/
 [3]  http://en.flossmanuals.net/pure-data/introduction/graphical-programming/
 [4]  https://github.com/libpd/pd-for-ios
 [5]  https://github.com/libpd/libpd
+
+Books:
+
 [6]  http://www.amazon.de/Making-Musical-Apps-Real-time-synthesis/dp/1449314902/?tag=foobooksde-21
 [7]  http://www.amazon.de/Loadbang-Programming-Electronic-Music-Pure/dp/3936000573/?tag=foobooksde-21
 [8]  http://www.amazon.de/Designing-Sound-Andy-Farnell/dp/0262014416/?tag=foobooksde-21
