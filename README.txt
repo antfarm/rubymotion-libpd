@@ -6,7 +6,7 @@ A skeleton RubyMotion [1] app that interacts with a Pure Data [2] patch [3] usin
 To install libpd for iOS, execute ./bin/install_libpd.sh.
 Then run rake to build the app.
 
-As an introductory text to libpd read [6]. For in-depth knowledge of Pure Data and sound design read [7] and [8]. MacRuby, on which RubyMotion is based, is described in great detail in [9] and [10].
+As an introductory text to libpd read [6]. For in-depth knowledge of Pure Data and sound design read [7] and [8]. MacRuby, on which RubyMotion is based, is described in detail in [9] and [10].
 
 ---
 
